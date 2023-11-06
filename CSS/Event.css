@@ -1,0 +1,265 @@
+body{
+    min-width:1361px;
+}
+.header{
+    width: 100%;
+    height: 150px;
+    border: 2px solid black;
+    border-bottom: none;
+    border-radius: 5px;
+}
+.header .a1{
+    width: 166px;
+    height: 148px;
+    display: inline-block;  
+    background-image: url(../Media/LOGO/2.PEC_.png);
+    background-size: 165px 147px;
+}
+.header .a2{
+    width: 650px;
+    height: 148px; 
+    display: inline-block;
+    position: relative;
+    top: -21px;
+}
+.header .a2 h1,#text2{
+    color: #96022c;
+}
+.header .a2 h1,p{
+    text-align: center;
+    font-weight: bold;
+}
+.header .a3{
+    width: 166px;
+    height: 148px; 
+    display: inline-block;  
+    background-image: url(../Media/LOGO/NAAC-icon.png);
+    background-size: 165px 147px;
+}
+.header .a4{
+    width: 166px;
+    height: 148px; 
+    display: inline-block; 
+    background-image: url(../Media/LOGO/nba.jpg);
+    background-size: 165px 147px; 
+}
+.header .a5{
+    width: 166px;
+    height: 148px; 
+    display: inline-block;  
+    background-image: url(../Media/LOGO/aicte-logo.png);
+    background-size: 165px 147px;
+}
+.navigation ul{
+    background-color: rgb(207,46,46);
+    margin: 0px;
+    padding: 15px;
+}
+.navigation ul li{
+    color:white;
+    display: inline;
+    margin-left: 45px;
+    margin-right: 2px;
+    padding: 15px;
+}
+#active{
+    background-color: rgba(0, 0, 0, 0.555);
+    border-radius: 20px 0px 20px 0px;
+}
+.navigation ul li:hover{
+    background-color: rgba(0, 0, 0, 0.555);
+    border-radius: 20px 0px 20px 0px;
+    
+}
+.navigation ul a{
+    text-decoration: none;
+    color: white;
+}
+#headertxt1{
+    margin-left: 15px;
+    text-decoration: underline;
+    color: #96022c;
+}
+.backimage{
+    width: 100%;
+    height: 380px;
+    background-image: url(../Media/image/lake.jpg);
+    background-size: 100% 380px;
+}
+.outer1{
+    width: 100%;
+    height: 1140px;
+    
+}
+.outer1 .list1,.list2,.list3,.list4,.list5,.list6,.list7,.list8,.list9,.list10,.list11,.list12,.list13,.list14,.list15{
+    width: 100px;
+    height: 100px;
+    width: 250px;
+    height: 250px;
+    margin-left: 61px;
+    margin-top: 15px;
+    border-radius:15px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.678);
+    display: inline-block;
+    background-size: 252px 268px;
+    margin-bottom: 20px;
+}
+.outer1 .list1{
+    background-image: url(../Media/image/Aero.jpg);
+}
+.outer1 .list2{
+    background-image: url(../Media/image/Agri.png);
+}
+.outer1 .list3{
+    background-image: url(../Media/image/bio.jpg);
+}
+.outer1 .list4{
+    background-image: url(../Media/image/chemical.jpg);
+}
+.outer1 .list5{
+    background-image: url(../Media/image/civil.jpeg);
+}
+.outer1 .list6{
+    background-image: url(../Media/image/cse.png);
+}
+.outer1 .list7{
+    background-image: url(../Media/image/MBA.jpeg);
+}
+.outer1 .list8{
+    background-image: url(../Media/image/ece.jpg);
+}
+.outer1 .list8{
+    background-image: url(../Media/image/ece.jpg);
+}
+.outer1 .list9{
+    background-image: url(../Media/image/EEE.jpeg);
+}
+.outer1 .list10{
+    background-image: url(../Media/image/Food.jpg);
+}
+.outer1 .list11{
+    background-image: url(../Media/image/IT.jpg);
+}
+.outer1 .list12{
+    background-image: url(../Media/image/mech.jpeg);
+}
+.outer1 .list13{
+    background-image: url(../Media/image/MCT.jpg);
+}
+.outer1 .list14{
+    background-image: url(../Media/image/pharma.jpg);
+}
+.outer1 .list15{
+    background-image: url(../Media/image/MBA.jpeg);
+}
+.outer .list7{
+    background-size: 272px 250px;
+}
+.outer1 .list1:hover{
+    position: relative;
+    top: -15px;
+    box-shadow: 2px -5px 8px rgba(0, 0, 0, 0.678);
+}
+.outer1 .list2:hover{
+    position: relative;
+    top: -15px;
+    box-shadow: 2px -5px 8px rgba(0, 0, 0, 0.678);
+}
+.outer1 .list3:hover{
+    position: relative;
+    top: -15px;
+    box-shadow: 2px -5px 8px rgba(0, 0, 0, 0.678);
+}
+.outer1 .list4:hover{
+    position: relative;
+    top: -15px;
+    box-shadow: 2px -5px 8px rgba(0, 0, 0, 0.678);
+}
+.outer1 .list5:hover{
+    position: relative;
+    top: -15px;
+    box-shadow: 2px -5px 8px rgba(0, 0, 0, 0.678);
+}
+.outer1 .list6:hover{
+    position: relative;
+    top: -15px;
+    box-shadow: 2px -5px 8px rgba(0, 0, 0, 0.678);
+}
+.outer1 .list7:hover{
+    position: relative;
+    top: -15px;
+    box-shadow: 2px -5px 8px rgba(0, 0, 0, 0.678);
+}
+.outer1 .list8:hover{
+    position: relative;
+    top: -15px;
+    box-shadow: 2px -5px 8px rgba(0, 0, 0, 0.678);
+}
+.outer1 .list9:hover{
+    position: relative;
+    top: -15px;
+    box-shadow: 2px -5px 8px rgba(0, 0, 0, 0.678);
+}
+.outer1 .list10:hover{
+    position: relative;
+    top: -15px;
+    box-shadow: 2px -5px 8px rgba(0, 0, 0, 0.678);
+}
+.outer1 .list11:hover{
+    position: relative;
+    top: -15px;
+    box-shadow: 2px -5px 8px rgba(0, 0, 0, 0.678);
+}
+.outer1 .list12:hover{
+    position: relative;
+    top: -15px;
+    box-shadow: 2px -5px 8px rgba(0, 0, 0, 0.678);
+}
+.outer1 .list13:hover{
+    position: relative;
+    top: -15px;
+    box-shadow: 2px -5px 8px rgba(0, 0, 0, 0.678);
+}
+.outer1 .list14:hover{
+    position: relative;
+    top: -15px;
+    box-shadow: 2px -5px 8px rgba(0, 0, 0, 0.678);
+}
+.outer1 .list15:hover{
+    position: relative;
+    top: -15px;
+    box-shadow: 2px -5px 8px rgba(0, 0, 0, 0.678);
+}
+.hi1{
+    text-align:center;
+    color:white;
+    text-shadow: 2px 2px 20px black;
+    background-color: rgb(207,46,46);
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: #30393a;
+    border-radius: 15px;
+}
+.footer .line1,.line2, .line3{
+    width: 250px;
+    height: 298px;
+    display: inline-block;
+    margin-left: 50px;
+}
+.footer p{
+    text-align: left;
+    color: white;
+    line-height: 25px;
+}
+.footer .line1{
+    width: 295px;
+    background-image: url(../Media/LOGO/paavai_logo.jpg);
+    background-repeat: no-repeat;
+    background-size: 295px 298px;
+}
+.footer .line3{
+    position: relative;
+    top: -28px;
+}

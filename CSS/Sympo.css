@@ -1,0 +1,278 @@
+body{
+    min-width:1361px;
+    user-select: none;
+}
+.header{
+    width: 100%;
+    height: 150px;
+    border: 2px solid black;
+    border-bottom: none;
+    border-radius: 5px;
+}
+.header .a1{
+    width: 166px;
+    height: 148px;
+    display: inline-block;  
+    background-image: url(../Media/LOGO/2.PEC_.png);
+    background-size: 165px 147px;
+}
+.header .a2{
+    width: 650px;
+    height: 148px; 
+    display: inline-block;
+    position: relative;
+    top: -21px;
+}
+.header .a2 h1,#text2{
+    color: #96022c;
+}
+.header .a2 h1,p{
+    text-align: center;
+    font-weight: bold;
+}
+.header .a3{
+    width: 166px;
+    height: 148px; 
+    display: inline-block;  
+    background-image: url(../Media/LOGO/NAAC-icon.png);
+    background-size: 165px 147px;
+}
+.header .a4{
+    width: 166px;
+    height: 148px; 
+    display: inline-block; 
+    background-image: url(../Media/LOGO/nba.jpg);
+    background-size: 165px 147px; 
+}
+.header .a5{
+    width: 166px;
+    height: 148px; 
+    display: inline-block;  
+    background-image: url(../Media/LOGO/aicte-logo.png);
+    background-size: 165px 147px;
+}
+.navigation ul{
+    background-color: rgb(207,46,46);
+    margin: 0px;
+    padding: 15px;
+}
+.navigation ul li{
+    color:white;
+    display: inline;
+    margin-left: 45px;
+    margin-right: 2px;
+    padding: 15px;
+}
+.active{
+    background-color: rgba(0, 0, 0, 0.555);
+    border-radius: 20px 0px 20px 0px;
+}
+.navigation ul li:hover{
+    background-color: rgba(0, 0, 0, 0.555);
+    border-radius: 20px 0px 20px 0px;
+    
+}
+.navigation ul a{
+    text-decoration: none;
+    color: white;
+}
+.tech{
+    width: 100%;
+    height: 50px;
+}
+.ntext{
+    display: inline-block;
+    width: 18%;
+    height: 49px;
+}
+.tech .ntext h1{
+    margin-top: 21px;
+    position:relative;
+    top: -21px;
+    margin-left: 15px;
+    color: #96022c;
+    animation: change 4s linear infinite;
+}
+@keyframes change{
+    0% {color: red;}
+    25% {color: green;}
+    50% {color: orangered;}
+    75% {color:yellow;}
+    100% {color:blue;}
+}
+.tech .ntext h1:hover{
+    color: red;
+    transition: 1s;
+}
+.ttext{
+    display: inline-block;
+    width:47%;
+    height: 49px;
+    margin-left: 33%;
+}
+#day,#hour,#min,#sec{
+    color:navy;
+}
+.ttext p{
+    color: #96022c;
+    margin-top: 35px;
+    font-size:x-large;
+    position:relative;
+    top: -24px;
+}
+.bo1{
+    width: 100%;
+    height: 550px;
+    background-image: url(../Media/image/CollegeBanner.jpg);
+    background-size: 100% 550px;
+}
+.bo2{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(169, 169, 169, 0.192);
+}
+.bo2 .heading{
+    color:black;
+    text-decoration: underline;
+    margin-left: 15px;
+}
+.bo2 .ins{
+    margin-left: 18px;
+}
+.bo22{
+    width:100%;
+    height: 265px;
+}
+.list1, .list2,.list3,.list4{
+    margin-left: 200px;
+}
+.bo2 .list1{
+   
+    width: 250px;
+    height: 250px;
+    margin-left: 97px;
+    margin-top: 15px;
+    border-radius:15px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.678);
+    display: inline-block;
+    background-image: url(../Media/image/Presentation.png);
+    background-size: 252px 268px;
+}
+.bo2 .list2{
+    
+    width: 250px;
+    height: 250px;
+    border-radius:15px;
+    margin-top: 14px;
+    display: inline-block;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.678);
+    background-image: url(../Media/image/Expo.jpg);
+    background-size: 252px 268px;
+}
+.bo2 .list3{
+    
+    width: 250px;
+    border-radius:15px;
+    margin-top: 15px;
+    height: 250px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.678);
+    display: inline-block;
+    background-image: url(../Media/image/Events_0210.jpg);
+    background-size: 252px 268px;
+}
+
+.bo2 .bo22 .list1:hover{
+    position: relative;
+    top: -15px;
+    box-shadow: 2px -5px 8px rgba(0, 0, 0, 0.678);
+    
+}
+.bo2 .bo22 .list2:hover{
+    position: relative;
+    top: -15px;
+    box-shadow: 2px -5px 8px rgba(0, 0, 0, 0.678);
+    
+}
+.bo2 .bo22 .list3:hover{
+    position: relative;
+    top: -15px;
+    box-shadow: 2px -5px 8px rgba(0, 0, 0, 0.678);
+}
+.hi1{
+    text-align:center;
+    color:white;
+    text-shadow: 2px 2px 20px black;
+    background-color: rgb(207,46,46);
+}
+.footer{
+    width: 100%;
+    height: 450px;
+    background-color: #30393a;
+    border-radius: 15px;
+}
+.footer .line1,.line2, .line3{
+    width: 250px;
+    height: 298px;
+    display: inline-block;
+    margin-left: 50px;
+}
+.footer p{
+    text-align: left;
+    color: white;
+    line-height: 25px;
+}
+.footer .line1{
+    width: 295px;
+    background-image: url(../Media/LOGO/paavai_logo.jpg);
+    background-repeat: no-repeat;
+    background-size: 295px 298px;
+}
+.footer.line3{
+    width: 300px;
+}
+.footer .line3{
+    position: relative;
+    top: 37px;
+}
+.fix{
+    position: fixed;
+    left: 84%;
+    top: 89%;
+    width: 220px;
+    height: 40px;
+    background-color:blue;
+    color: white;
+    animation: blink infinite linear 0.3s;
+}
+.fix h1{
+    padding: 0px;
+    margin: 0px;
+    margin-left: 9px;
+}
+@keyframes blink{
+    0%{background-color:rgb(24, 24, 95);
+        color:white;
+    }
+    100%{
+        background-color: blue;
+        color:white;
+    }
+}
+.outer .poster{
+    position: fixed;
+    left: 35%;
+    top: 1%;
+    width: 468px;
+    height: 658px;
+    display:none;
+    background-image: url(../Media/image/poster.jpg);
+    background-size: 100% 100%;
+    border: 2px solid black;
+}
+.outer .poster .close_p{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 0%;
+    background-color: rgba(250, 235, 215, 0.219);
+}

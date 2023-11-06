@@ -1,0 +1,134 @@
+body{
+    min-width:1361px;
+}
+.header{
+    width: 100%;
+    height: 150px;
+    border: 2px solid black;
+    border-bottom: none;
+    border-radius: 5px;
+}
+.header .a1{
+    width: 166px;
+    height: 148px;
+    display: inline-block;  
+    background-image: url(../Media/LOGO/2.PEC_.png);
+    background-size: 165px 147px;
+}
+.header .a2{
+    width: 650px;
+    height: 148px; 
+    display: inline-block;
+    position: relative;
+    top: -21px;
+}
+.header .a2 h1,#text2{
+    color: #96022c;
+}
+.header .a2 h1,p{
+    text-align: center;
+    font-weight: bold;
+}
+.header .a3{
+    width: 166px;
+    height: 148px; 
+    display: inline-block;  
+    background-image: url(../Media/LOGO/NAAC-icon.png);
+    background-size: 165px 147px;
+}
+.header .a4{
+    width: 166px;
+    height: 148px; 
+    display: inline-block; 
+    background-image: url(../Media/LOGO/nba.jpg);
+    background-size: 165px 147px; 
+}
+.header .a5{
+    width: 166px;
+    height: 148px; 
+    display: inline-block;  
+    background-image: url(../Media/LOGO/aicte-logo.png);
+    background-size: 165px 147px;
+}
+.navigation ul{
+    background-color: rgb(207,46,46);
+    margin: 0px;
+    padding: 15px;
+}
+.navigation ul li{
+    color:white;
+    display: inline;
+    margin-left: 45px;
+    margin-right: 2px;
+    padding: 15px;
+}
+.navigation ul li:hover{
+    background-color: rgba(0, 0, 0, 0.555);
+    border-radius: 20px 0px 20px 0px;
+    
+}
+.navigation ul a{
+    text-decoration: none;
+    color: white;
+}
+.backimage{
+    width: 100%;
+    height: 350px;
+    background-image: url(../Media/image/Presentation.png);
+    background-repeat: no-repeat;
+    background-size: 350px 349px;
+    background-position-x: 40%;
+}
+.header1{
+    color: #96022c;
+    text-decoration: underline;
+    margin-left: 35px;
+}
+.bodier{
+    margin-left: 45px;
+}
+.btn .btn1{
+    margin-top: 20px;
+    margin-left:400px;
+    width: 450px;
+    height: 70px;
+    background-color:rgb(207,46,46);
+    color: white;
+    border: 0px solid;
+    border-radius: 4px;
+    margin-bottom: 45px;
+    font-size: large;
+}
+.btn .btn1:hover{
+    border-radius: 15px;
+    transition: 1s;
+    background-color:blue;
+    color: white;
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: #30393a;
+    border-radius: 15px;
+}
+.footer .line1,.line2, .line3{
+    width: 250px;
+    height: 298px;
+    display: inline-block;
+    margin-left: 50px;
+}
+.footer p{
+    text-align: left;
+    color: white;
+    line-height: 25px;
+}
+.footer .line1{
+    width: 295px;
+    background-image: url(../Media/LOGO/paavai_logo.jpg);
+    background-repeat: no-repeat;
+    background-size: 295px 298px;
+}
+.footer .line3{
+    position: relative;
+    top: -28px;
+}
